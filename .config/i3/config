@@ -259,8 +259,8 @@ bindsym Shift+Print exec --no-startup-id maim --select "$HOME/Pictures/$(date)"
 
 
 
-exec_always --no-startup-id for id in $(xinput list | grep "pointer" | cut -d '=' -f 2 | cut -f 1); do xinput --set-prop $id 'libinput Accel Profile Enabled' 0, 1; done
-exec_always --no-startup-id xinput --set-prop 'MSFT0001:00 2808:0101 Touchpad' 'libinput Tapping enabled' 0;
+exec_always --no-startup-id for id in $(xinput list | grep "pointer:Logitech" | cut -d '=' -f 2 | cut -f 1); do xinput --set-prop $id 'libinput Accel Profile Enabled' 0, 1; done
+exec_always --no-startup-id xinput --set-prop 'MSFT0001:00 2808:0101 Touchpad' 'libinput Tapping Enabled' 1;
 exec_always --no-startup-id xinput --set-prop 'MSFT0001:00 2808:0101 Touchpad' 'libinput Accel Profile Enabled' 1, 0;
 
 
