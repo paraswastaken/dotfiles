@@ -256,7 +256,7 @@ bindsym Shift+Print exec --no-startup-id maim --select "$HOME/Pictures/$(date)"
 exec_always --no-startup-id for id in $(xinput list | grep "pointer" | cut -d '=' -f 2 | cut -f 1); do xinput --set-prop $id 'libinput Accel Profile Enabled' 0, 1; done
 
 # Wallpaper
-exec_always --no-startup-id feh --bg-fill /home/gatsu/Pictures/wallpapers-main/mandelbrot/mandelbrot_gap_peach.png
+exec_always --no-startup-id feh --bg-fill /home/$USER/Pictures/wallpapers-main/mandelbrot/mandelbrot_gap_peach.png
 
 exec --no-startup-id /usr/bin/gnome-keyring-daemon --start --components=secrets
 
@@ -279,7 +279,7 @@ mode "$mode_system" {
     bindsym Return mode "default"
     bindsym Escape mode "default"
 }
-bindsym $mod+Shift+Pause mode "$mode_system"
+bindsym $mod+Shift+p mode "$mode_system"
 
 # Quick apps
 #set $mode_launcher Launch : (c) Chrome -- (d) Discord -- (s) Spotify
