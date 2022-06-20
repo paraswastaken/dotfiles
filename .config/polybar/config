@@ -92,7 +92,7 @@ font-3 = FuraCode Nerd Font Mono:style=Medium:pixelsize=12;2
 
 modules-left = i3 xwindow
 modules-center = music
-modules-right = pulseaudio xkeyboard cpu date
+modules-right = pulseaudio battery xkeyboard cpu date
 
 tray-position = right
 tray-padding = 2
@@ -381,10 +381,10 @@ battery = BAT0
 adapter = AC
 full-at = 98
 
-format-charging = <animation-charging> <label-charging>
+format-charging = <animation-charging>   <label-charging>
 format-charging-underline = #ffb52a
 
-format-discharging = <animation-discharging> <label-discharging>
+format-discharging = <animation-discharging>   <label-discharging>
 format-discharging-underline = ${self.format-charging-underline}
 
 format-full-prefix = " "
