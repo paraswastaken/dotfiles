@@ -92,7 +92,7 @@ font-3 = FuraCode Nerd Font Mono:style=Medium:pixelsize=12;2
 
 modules-left = i3 xwindow
 modules-center = music
-modules-right = pulseaudio battery xkeyboard cpu date
+modules-right = pulseaudio xbacklight battery xkeyboard cpu date
 
 tray-position = right
 tray-padding = 2
