@@ -11,17 +11,17 @@ configuration {
 @theme "/dev/null"
 
 * {
-	bg:				#11324D00;
+	bg:				#3c3836e8;
 	fg:				#ffffff;
 	accent:				#68736388;
-	button:				#8FBDD355;
+	button:				#fbf1c755;
 	
 	background-color:		@bg;
 	text-color:			@fg;
 }
 
 window {
-	border-radius:                  7px;
+	border-radius:                  9px;
 	width:			    	40%;
 	padding: 			32px;
 }
@@ -51,6 +51,7 @@ inputbar {
 }
 
 listview {
+        background-color:               #11324D00;
     	columns:                        3;
     	lines:	                        3;
     	cycle:                          false;
@@ -59,6 +60,8 @@ listview {
 }
 
 mainbox {
+    
+    background-color:   #11324D00;
     	children:                       [ inputbar, listview ];
     	border-radius:					6px;
 		spacing:                       	2%;
@@ -66,6 +69,7 @@ mainbox {
 }
 
 element {
+        background-color:               #11324D00;
     	orientation:                    vertical;
     	padding:                        2% 0% 2% 0%;
 }
