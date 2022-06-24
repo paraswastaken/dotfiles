@@ -265,7 +265,7 @@ exec_always --no-startup-id xinput --set-prop 'MSFT0001:00 2808:0101 Touchpad' '
 
 
 # Wallpaper
-exec_always --no-startup-id feh --bg-fill /home/$USER/Pictures/Wallpapers/uhdpaper.com-download-pc-4k-wallpaper-394@1@f.jpg
+exec_always --no-startup-id feh --bg-fill /home/$USER/Pictures/Wallpapers/monochrome-clouds.jpg
 
 exec --no-startup-id /usr/bin/gnome-keyring-daemon --start --components=secrets
 
