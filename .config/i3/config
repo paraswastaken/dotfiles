@@ -265,7 +265,7 @@ exec_always --no-startup-id xinput --set-prop 'MSFT0001:00 2808:0101 Touchpad' '
 
 
 # Wallpaper
-exec_always --no-startup-id feh --bg-fill /home/$USER/Pictures/wallpapers-main/mandelbrot/mandelbrot_gap_peach.png
+exec_always --no-startup-id feh --bg-fill /home/$USER/Pictures/Wallpapers/uhdpaper.com-download-pc-4k-wallpaper-394@1@f.jpg
 
 exec --no-startup-id /usr/bin/gnome-keyring-daemon --start --components=secrets
 
@@ -304,7 +304,7 @@ bindsym $mod+Shift+p mode "$mode_system"
 #}
 
 exec --no-startup-id picom --experimental-backends
-#Polybar
+# Polybar
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
 # BELOW THIS EVERYTHING IS i3-GAPS
