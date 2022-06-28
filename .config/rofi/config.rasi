@@ -11,8 +11,8 @@ configuration {
 @theme "/dev/null"
 
 * {
-	bg:				#33333388;
-	fg:				#444444;
+	bg:				#1a1b26;
+	fg:				#1a1b26;
 	accent:				#68736388;
 	button:				#efeee9;
 	
