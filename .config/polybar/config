@@ -44,7 +44,7 @@
 
 [colors]
 ;background = ${xrdb:color0:#222}
-background = #dfdfdf
+background = #efeee9
 background-alt = #6B7AA1
 background-a = #6B7AA1
 ; foreground = ${xrdb:color7:#222}
@@ -62,11 +62,11 @@ width = 100%
 height = 30 
 ; offset-x = 5%
 ; offset-y = 1%
-; border-top-size=10
-; border-left-size=20
-; border-right-size=20
-; border-bottom-size=10
-; radius = 9.0
+border-top-size=10
+border-left-size=20
+border-right-size=20
+border-bottom-size=10
+radius = 9.0
 fixed-center = true
 bottom = false
 
@@ -89,9 +89,10 @@ font-0 = Work Sans:weight=100:size=10;2
 font-1 = Font Awesome 6 Brands:style=Regular:pixelsize=12;2
 font-2 = 3270Medium Nerd Font:style=Medium:pixelsize=12;2
 font-3 = FuraCode Nerd Font Mono:style=Medium:pixelsize=12;2
+font-4 = Noto Sans JP:style=regular:pixelsize=9;2
 
 modules-left = i3 xwindow
-modules-center = music
+modules-center = music 
 modules-right = pulseaudio xbacklight backlight-acpi battery xkeyboard cpu date
 
 tray-position = right

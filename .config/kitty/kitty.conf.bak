@@ -246,6 +246,6 @@ map ctrl+enter send_text all \x1b[13;5u
 #: }}}
 
 # BEGIN_KITTY_THEME
-# Farin
+# Gruvbox Dark
 include current-theme.conf
 # END_KITTY_THEME
