@@ -44,8 +44,13 @@ let base16colorspace=256
 " Plugin calls
 call plug#begin('~/.vim/plugged')
 Plug 'nvim-telescope/telescope.nvim' 
-Plug 'gruvbox-community/gruvbox'
+"Plug 'gruvbox-community/gruvbox'
+Plug 'arcticicestudio/nord-vim'
+Plug 'ayu-theme/ayu-vim'
+Plug 'tpope/vim-surround'
+Plug 'scrooloose/nerdtree'
 call plug#end()
 
-colorscheme gruvbox
+let ayucolor="mirage"
+colorscheme ayu
 let &t_ut=''
