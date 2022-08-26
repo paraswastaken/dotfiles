@@ -9,17 +9,22 @@
 #italic_font      Operator Mono Book Italic
 #bold_italic_font Operator Mono Bold Italic
 
-font_family      JetBrains Mono Medium
-bold_font        JetBrains Mono Bold
-italic_font      JetBrains Mono Italic
-bold_italic_font JetBrains Mono Bold Italic
+#font_family      JetBrains Mono Medium
+#bold_font        JetBrains Mono Bold
+#italic_font      JetBrains Mono Italic
+#bold_italic_font JetBrains Mono Bold Italic
 
 #font_family      DM Mono Book
 #bold_font        DM Mono Bold
 #italic_font      DM Mono Book Italic
 #bold_italic_font DM Mono Bold Italic
 
-font_size 12
+font_family      Ubuntu Mono
+bold_font        Ubuntu Mono Bold
+italic_font      Ubuntu Mono Italic
+bold_italic_font Ubuntu Mono Bold Italic
+
+font_size 13
 
 adjust_line_height 0
 adjust_column_width 0
@@ -33,9 +38,9 @@ sync_to_monitor yes
 
 #: Cursor customization {{{
 
-cursor_shape block
-cursor_beam_thickness 1.5
-cursor_underline_thickness 2.0
+cursor_shape underline
+cursor_beam_thickness 2
+cursor_underline_thickness 2.5
 
 cursor_blink_interval -1
 cursor_stop_blinking_after 15.0
@@ -66,7 +71,7 @@ window_logo_path window-logo.png
 window_logo_alpha 0.15
 enabled_layouts splits,stack
 hide_window_decorations no
-window_padding_width 5 15
+window_padding_width 7 12
 placement_strategy center
 # active_border_color #00ff00
 # inactive_border_color #cccccc
@@ -245,7 +250,9 @@ map ctrl+enter send_text all \x1b[13;5u
 
 #: }}}
 
+shell_integration no-cursor
+
 # BEGIN_KITTY_THEME
-# Hachiko
+# Vibrant Ink
 include current-theme.conf
 # END_KITTY_THEME

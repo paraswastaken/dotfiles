@@ -48,9 +48,10 @@ Plug 'nvim-telescope/telescope.nvim'
 Plug 'arcticicestudio/nord-vim'
 Plug 'ayu-theme/ayu-vim'
 Plug 'tpope/vim-surround'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'scrooloose/nerdtree'
 call plug#end()
 
-let ayucolor="mirage"
+"let ayucolor="mirage"
 colorscheme ayu
 let &t_ut=''
