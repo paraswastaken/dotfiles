@@ -66,7 +66,7 @@ window_logo_path window-logo.png
 window_logo_alpha 0.15
 enabled_layouts splits,stack
 hide_window_decorations no
-window_padding_width 15 15
+window_padding_width 5 15
 placement_strategy center
 # active_border_color #00ff00
 # inactive_border_color #cccccc
@@ -246,6 +246,6 @@ map ctrl+enter send_text all \x1b[13;5u
 #: }}}
 
 # BEGIN_KITTY_THEME
-# Ayu
+# Hachiko
 include current-theme.conf
 # END_KITTY_THEME
